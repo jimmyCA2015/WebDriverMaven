@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3116" started-at="2019-09-13T01:27:09Z" finished-at="2019-09-13T01:27:12Z">
+  <suite name="Default suite" duration-ms="11715" started-at="2019-09-13T15:57:19Z" finished-at="2019-09-13T15:57:31Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3116" started-at="2019-09-13T01:27:09Z" finished-at="2019-09-13T01:27:12Z">
+    <test name="Default test" duration-ms="11715" started-at="2019-09-13T15:57:19Z" finished-at="2019-09-13T15:57:31Z">
       <class name="webdriverMaven.LoginTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:webdriverMaven.LoginTest@224edc67]" name="setup" is-config="true" duration-ms="9032" started-at="2019-09-13T01:27:00Z" finished-at="2019-09-13T01:27:09Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:webdriverMaven.LoginTest@1e88b3c]" name="setup" is-config="true" duration-ms="29480" started-at="2019-09-13T15:56:49Z" finished-at="2019-09-13T15:57:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="doLogin()[pri:0, instance:webdriverMaven.LoginTest@224edc67]" name="doLogin" duration-ms="3079" started-at="2019-09-13T01:27:09Z" finished-at="2019-09-13T01:27:12Z">
+        <test-method status="PASS" signature="doLogin()[pri:0, instance:webdriverMaven.LoginTest@1e88b3c]" name="doLogin" duration-ms="11693" started-at="2019-09-13T15:57:19Z" finished-at="2019-09-13T15:57:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:webdriverMaven.LoginTest@224edc67]" name="tearDown" is-config="true" duration-ms="8730" started-at="2019-09-13T01:27:12Z" finished-at="2019-09-13T01:27:21Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:webdriverMaven.LoginTest@1e88b3c]" name="tearDown" is-config="true" duration-ms="1343" started-at="2019-09-13T15:57:31Z" finished-at="2019-09-13T15:57:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
