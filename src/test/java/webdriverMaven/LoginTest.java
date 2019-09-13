@@ -14,11 +14,12 @@ public class LoginTest {
 	public static WebDriver driver;;
 	@BeforeSuite
 	public void setup() {
+		System.setProperty("webdriver.chrome.driver", "src\\chromedriver.exe"); 
 		driver=new ChromeDriver();
 	}
 	@Test
 	public void doLogin() {
-		System.setProperty("webdriver.chrome.driver", "src\\chromedriver.exe"); 
+		
 		driver.get("http://gmail.com");
 		driver.findElement(By.id("identifierId")).sendKeys("traiaane22r@way2automation.com");
 		driver.findElement(By.id("identifierNext")).click();
