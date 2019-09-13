@@ -18,7 +18,7 @@ public class LoginTest {
 	}
 	@Test
 	public void doLogin() {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\jimmy\\Desktop\\chromedriver.exe"); 
+		System.setProperty("webdriver.chrome.driver", "src\\chromedriver.exe"); 
 		driver.get("http://gmail.com");
 		driver.findElement(By.id("identifierId")).sendKeys("traiaane22r@way2automation.com");
 		driver.findElement(By.id("identifierNext")).click();
